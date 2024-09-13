@@ -52,3 +52,17 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (primitive) , heap (Non primitive)
+
+let myYoutubename = "devangpareek"
+
+let anothername = myYoutubename
+anothername = "devop"
+console.log(myYoutubename);
+console.log(anothername);
+
+
